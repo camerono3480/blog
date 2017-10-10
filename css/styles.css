@@ -3,7 +3,7 @@
 body{
    margin: 0;
    height: 100%;
-   
+
 }
 /*navbar*/
 .nav{
@@ -14,6 +14,10 @@ body{
  border-radius: 0px
  color: white;
  /*opacity: 0.6;*/
+}
+.termface{
+	height: 140px;
+
 }
 
   /*content*/
@@ -31,8 +35,35 @@ body{
 
 
 /*other not so responible objects*/
+
 h1.a51{
 	 margin: 200px 30% 0 30%;
+}
+/*terminal form*/
+.termface{
+  width: 500px;
+  height: 260px;
+  background-color: black;
+  color: red;
+}
+.termtext{
+  width: 500px;
+height: 22px;
+background-color: black;
+color: red;
+text-align: left;
+border: 0;
+}
+
+/*input*/
+/*soon you may remove this part*/
+/*just kidding DO NOT DELETE THIS!*/
+input{
+	color: green;
+	background-color: black;
+  border: 0;
+
+
 }
 /*linkies*/
 a{
@@ -42,15 +73,15 @@ a{
    top: 20px;
    left: 20%;
    font-family: 'Lobster', cursive;
-   
-   
+
+
 }
 a.sc{
 	left: 32%;
 }
 a.hr{
 	left: 42%;
-	
+
 }
 
 a:hover{
