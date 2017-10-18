@@ -16,7 +16,7 @@
 
 <link rel="stylesheet" href="css/styles.css">
 
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/coffee-script/1.1.2/coffee-script.min.js"></script>
+<script type="text/javascript" src="js/coffee-script.min.js"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
@@ -25,8 +25,8 @@
     <!-- this is the nav bar, you may call is a header -->
      <div class="nav">
        <h2><a href="#">tutoriales</a></h2>
-       <h2><a href="#" class="sc">social</a></h2>
-       <h2><a href="#" class="hr">hire</a></h2>
+       <h2><a href="https://twitter.com/camerono3480" class="sc">social</a></h2>
+       <h2><a href="portfolio" class="hr">portfolio</a></h2>
      </div>
 
      <!-- coffeescript-->
@@ -42,7 +42,7 @@
      </div>
 
    </script>
-     <form action="action.php" id="terminal" class="text-center">
+     <form action="" id="terminal" class="text-center">
     <div class="termface center-block">
       <p>cameron@root:~$ <br></p>
     </div>
