@@ -18,7 +18,9 @@
 
 <script type="text/javascript" src="js/coffee-script.min.js"></script>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
 
@@ -29,6 +31,28 @@
        <h2><a href="portfolio" class="hr">portfolio</a></h2>
      </div>
 
+
+
+     <div class="mobnav" id="mySidenav">
+       <a href="javascript:void(0)" onclick="closeNav()" class="material-icons">&#xe5c9;</a>
+       <li>
+       <h2><a href="#">tutoriales</a></h2>
+       <h2><a href="https://twitter.com/camerono3480" class="sc">social</a></h2>
+       <h2><a href="portfolio" class="hr">portfolio</a></h2>
+     </li>
+     </div>
+      <span class="ro"><i class="material-icons ro" onclick="openNav();" style="font-size:225% ">&#xe5d2;</i></span>
+
+     <script type="text/javascript">
+     function openNav() {
+         document.getElementById("mySidenav").style.width = "250px";
+     }
+
+     function closeNav() {
+         document.getElementById("mySidenav").style.width = "0";
+     }
+     </script>
+
      <!-- coffeescript-->
      <!-- this is unnessersy but i want to have fun with this later on :) -->
      <div class="content text-center" >
@@ -37,7 +61,6 @@
     i was never gonna tell you!. anyway, welcome to my 'not so odd' blog... i really
     don't know what to put on this so called blog.
    </p>
-
 
      </div>
 
