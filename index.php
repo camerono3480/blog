@@ -26,20 +26,18 @@
 
     <!-- this is the nav bar, you may call is a header -->
      <div class="nav">
-       <h2><a href="#">tutoriales</a></h2>
-       <h2><a href="https://twitter.com/camerono3480" class="sc">social</a></h2>
-       <h2><a href="portfolio" class="hr">portfolio</a></h2>
+       <h2><a href="#" class="ji">tutoriales</a></h2>
+       <h2><a href="https://twitter.com/camerono3480" class="sc ji">social</a></h2>
+       <h2><a href="portfolio" class="hr ji">portfolio</a></h2>
      </div>
 
 
 
      <div class="mobnav" id="mySidenav">
-       <a href="javascript:void(0)" onclick="closeNav()" class="material-icons">&#xe5c9;</a>
-       <li>
-       <h2><a href="#">tutoriales</a></h2>
-       <h2><a href="https://twitter.com/camerono3480" class="sc">social</a></h2>
-       <h2><a href="portfolio" class="hr">portfolio</a></h2>
-     </li>
+       <h2><a href="#" class="ij">tutoriales</a></h2>
+       <h2><a href="https://twitter.com/camerono3480" class="ij">social</a></h2>
+       <h2><a href="portfolio" class="ij" >portfolio</a></h2>
+       <a href="javascript:void(0)" onclick="closeNav()" class="material-icons ij">&#xe5c9;</a>
      </div>
       <span class="ro"><i class="material-icons ro" onclick="openNav();" style="font-size:225% ">&#xe5d2;</i></span>
 
